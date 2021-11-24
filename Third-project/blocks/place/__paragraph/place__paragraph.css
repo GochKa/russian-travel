@@ -1,0 +1,36 @@
+.place__paragraph {
+    width: 484px;
+    height: 203px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+    grid-area: paragraph;
+}
+
+@media screen and (width: 1024px) {
+    .place__paragraph {
+        width: 456px;
+    }
+}
+
+@media screen and (width: 768px) {
+    .place__paragraph {
+        width: 352px;
+        height: fit-content;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (width: 320px) {
+    .place__paragraph {
+        width: 288px;
+        height: fit-content;
+        grid-area: paragraph;
+        margin-right: 16px;
+        margin-left: 16px;
+        font-size: 16px;
+    }
+}

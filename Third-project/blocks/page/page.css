@@ -1,0 +1,32 @@
+.page{
+    position: relative;
+    width: 1280px;
+    height: 6875px;
+    background: #2A2C2F;
+    margin: auto;
+    display: grid;
+    justify-items: center;
+}
+
+
+
+@media screen and (width: 1024px) {
+    .page{
+        width: 1024px;
+        height: 6895px;
+    }
+}
+
+@media screen and (width: 768px) {
+    .page{
+        width: 768px;
+        height: 6855px;  
+    }
+}
+
+@media screen and (width: 320px){
+    .page{
+        width: 320px;
+        height: 10023px;
+    }
+}

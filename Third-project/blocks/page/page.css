@@ -1,0 +1,38 @@
+.page{
+    position: relative;
+    width: 1280px;
+    background: #2A2C2F;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(7, minmax(min-content,max-content));
+    grid-template-areas: 
+    "header"
+    "lead"
+    "intro"
+    "photo"
+    "places"
+    "cov"
+    "footer";
+    row-gap: 92px;
+}
+
+
+
+@media screen and (width: 1024px) {
+    .page{
+        width: 1024px;     
+    }
+}
+
+@media screen and (width: 768px) {
+    .page{
+        width: 768px;       
+    }
+}
+
+@media screen and (width: 320px){
+    .page{
+        width: 320px;  
+    }
+}

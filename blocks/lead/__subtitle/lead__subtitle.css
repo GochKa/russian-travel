@@ -1,12 +1,12 @@
 .lead__subtitle{
     width: 640px;
-    height: 72px;
     margin: auto;
     margin-top: 32px;
     margin-bottom: 64px;
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
+    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     text-align: center;
@@ -15,10 +15,10 @@
 @media screen and (width: 320px){
     .lead__subtitle{
         width: 288px;
-        height: 40px;
         font-size: 16px;
         line-height: 20px;
-        margin: 16px 16px 16px 40px;
+        margin-left: 16px;
+        margin-bottom: 40px;
     }
     
 }

@@ -1,37 +1,26 @@
 .intro {
   width: 690px;
-  height: 429px;
-  position: absolute;
-  left: 148px;
-  top: 1233px;
-  margin-bottom: 92px;
+  grid-area: intro;
+  margin-left: 148px;
+
 }
 
 @media screen and (width: 1024px) {
   .intro {
-    position: absolute;
-    left: 48px;
-    top: 1182px;
+    margin-left: 48px;
   }
 }
 
 @media screen and (width: 768px) {
   .intro {
     width: 720px;
-    height: 429px;
-    position: absolute;
-    left: 24px;
-    top: 1078px;
-
+    margin-left: 24px;
   }
 }
 
 @media screen and (width: 320px) {
   .intro {
     width: 288px;
-    height: 754px;
-    position: absolute;
-    left: 16px;
-    top: 576px;
+    margin-left: 16px;
   }
 }

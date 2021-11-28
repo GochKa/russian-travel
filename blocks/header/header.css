@@ -1,17 +1,17 @@
 .header{
     width: 1184px;
     margin-top: 28px;
-    margin-right: 48px;
     margin-left: 48px;
     display: grid;
-    grid-template-columns: repeat(2, min-content);
-    justify-content: space-between;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 931px;
     grid-area: header;
 }
 
 @media screen and (width: 1024px) {
     .header{
-        width: 928px;         
+        width: 928px;      
+        column-gap: 675px;   
     }
 }
 
@@ -19,6 +19,7 @@
     .header{
         width: 720px;
         margin-left: 24px;     
+        column-gap: 467px;
     }
 }
 

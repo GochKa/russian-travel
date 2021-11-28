@@ -35,7 +35,7 @@
         width: 320px;
         display: grid;
         grid-template-columns: 320px;
-        grid-template-rows: 1042px 1016px 990px 964px 965px; 
+        grid-template-rows: 1042px 1016px 990px 964px 965px;
         margin-left: 0;
         row-gap: 50px;
     }

@@ -2,7 +2,7 @@
     width: 484px;
     font-family: Inter, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 900;
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
@@ -26,11 +26,13 @@
 
 @media screen and (width: 320px) {
     .place__paragraph {
+        height: min-content;
         width: 288px;
         height: fit-content;
         grid-area: paragraph;
         margin-right: 16px;
         margin-left: 16px;
-        font-size: 16px;
+        font-size: 14px;
+        line-height: 26px;
     }
 }

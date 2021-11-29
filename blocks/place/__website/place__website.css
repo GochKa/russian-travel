@@ -4,16 +4,3 @@
     align-self: end;
     grid-area: web;
 }
-
-@media screen and (width: 768px) {
-    .place__website {
-        width: 352px;
-    }
-}
-
-@media screen and (width: 320px) {
-    .place__website {
-        width: 288px;
-        margin-left: 16px;
-    }
-}

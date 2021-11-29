@@ -8,9 +8,3 @@
     color: #FFFFFF;
     margin-bottom: 33px;
 }
-
-@media screen and (width: 320px){
-    .intro__text{
-        width: 288px;
-    }
-}

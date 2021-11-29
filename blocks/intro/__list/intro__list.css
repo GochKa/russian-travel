@@ -5,16 +5,8 @@
     width: 690px;
     font-family: Inter, sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
-}
-
-@media screen and (width: 320px) {
-    .intro__list {
-        width: 288px;
-        height: 90px;
-        margin-top: 34px;
-    }
 }

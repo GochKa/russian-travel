@@ -5,19 +5,8 @@
     color: #FFFFFF;
     font-family: Inter, sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 400;
     font-size: 96px;
     line-height: 100px;
     text-align: center;
-}
-
-@media screen and (width: 320px){
-    .lead__title{
-        width: 288px;
-        margin-left: 16px;
-        margin-bottom: 16px;
-        font-size: 40px;
-        line-height: 44px;
-    }
-    
 }

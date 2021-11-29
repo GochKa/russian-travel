@@ -1,26 +1,9 @@
 .intro {
-  width: 690px;
-  grid-area: intro;
-  margin-left: 148px;
-
-}
-
-@media screen and (width: 1024px) {
-  .intro {
-    margin-left: 48px;
-  }
-}
-
-@media screen and (width: 768px) {
-  .intro {
-    width: 720px;
-    margin-left: 24px;
-  }
-}
-
-@media screen and (width: 320px) {
-  .intro {
-    width: 288px;
-    margin-left: 16px;
-  }
+  display: flex;
+  flex-direction: column;
+  min-width: 690px;
+  padding-top: 92px;;
+  padding-left: 100px;
+  align-self: center;
+  align-self: flex-start;
 }

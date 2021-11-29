@@ -2,15 +2,8 @@
     width: 186px;
     font-family: Inter, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 900;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
-    text-align: right;
-}
-
-@media screen and (width: 320px) {
-    .footer__copyryight{
-        text-align: left;
-    }
 }

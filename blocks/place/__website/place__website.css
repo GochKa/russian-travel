@@ -1,6 +1,3 @@
-.place__website {
-    width: 456px;
-    grid-row: 1/2;
-    align-self: end;
-    grid-area: web;
+.place__website{
+    align-self: flex-end;
 }

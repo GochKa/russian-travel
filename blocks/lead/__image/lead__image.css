@@ -1,6 +1,6 @@
 .lead__image{
-  width: 984px;
-  height: 615px;
-  background-size: cover;
-  background-image: url(../../../image/lead-polka.jpg);
+    background-image: url("../../../image/lead-polka.jpg");
+    background-size: cover;
+    width: 984px;
+    height: 615px;
 }

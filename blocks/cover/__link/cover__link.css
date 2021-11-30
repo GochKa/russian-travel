@@ -1,7 +1,6 @@
 .cover__link{
     position: relative;
     min-height: 740px;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,8 +8,7 @@
     text-decoration: none;
     color: white;
     background-image: url(../../../image/cover-trains.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cover__link::before{
@@ -19,6 +17,8 @@
     height: 100%;
     background-color: #2A2C2F;
     position: absolute;
+    top: 0;
+    left: 0;
     opacity: 0.3;
     transition: 1s;
 }

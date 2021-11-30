@@ -1,12 +1,11 @@
-.intro__list {
+.intro__list{
     list-style: none;
     text-decoration: none;
-    padding-left: 0;
-    width: 690px;
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
+    padding-left: 0;
 }

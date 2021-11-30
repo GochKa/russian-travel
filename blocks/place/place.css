@@ -16,3 +16,10 @@
         column-gap: 28px;
     }
 }
+
+@media screen and (max-width: 600px){
+    .place{
+        grid-template-columns: 320px;
+        row-gap: 32px;
+    }
+}

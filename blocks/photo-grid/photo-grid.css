@@ -22,3 +22,11 @@
         gap: 16px 16px;
     }
 }
+
+@media screen and (max-width: 600px){
+    .photo-grid{
+        grid-template-rows: repeat(12, 216px);
+        grid-template-columns: 288px;
+        gap: 12px 12px;
+    }
+}

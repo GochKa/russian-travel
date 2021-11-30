@@ -27,3 +27,13 @@
         row-gap: 72px;
     }
 }
+
+@media screen and (max-width: 600px){
+    .places{
+        padding-left: 0;
+        padding-right: 0;
+        grid-template-rows: 1042px 1016px 990px 964px 965px;
+        grid-template-columns: 320px;
+        row-gap: 50px;
+    }
+}

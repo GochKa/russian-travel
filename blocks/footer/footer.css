@@ -9,3 +9,19 @@
     padding-top: 92px;
     max-height: 18px;
 }
+
+@media screen and (max-width: 800px){
+    .footer{
+        padding-top: 81px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .footer{
+        flex-direction: column;
+        max-height: 310px;
+        align-items: start;
+    }
+}

@@ -1,10 +1,10 @@
-.content{
+.content {
     padding-top: 56px;
     width: 100%;
 }
 
-@media screen and (max-width: 1120px){
-    .content{
+@media screen and (max-width: 1120px) {
+    .content {
         padding-top: 48px;
     }
 }

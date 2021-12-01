@@ -1,0 +1,11 @@
+.photo-grid__box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 16px;
+}
+
+@media screen {
+    .photo-grid__box{
+    gap: 12px
+    }
+}

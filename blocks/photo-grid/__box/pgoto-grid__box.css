@@ -6,6 +6,6 @@
 
 @media screen {
     .photo-grid__box{
-    gap: 12px
+    gap: 12px;
     }
 }

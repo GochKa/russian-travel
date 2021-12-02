@@ -5,4 +5,11 @@
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
+    margin: 0;
+}
+
+@media screen and (max-width: 600px){
+    .footer__copyryight{
+        line-height: 14px;
+    }
 }

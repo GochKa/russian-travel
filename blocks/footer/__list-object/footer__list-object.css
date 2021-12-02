@@ -2,8 +2,9 @@
     margin: 0 18px 0 0;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 750px){
     .footer__list-object{
         margin-bottom: 32px;
+        margin-right: 0;
     }
 }

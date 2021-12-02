@@ -9,6 +9,7 @@
     color: white;
     background-image: url(../../../image/cover-trains.jpg);
     background-size: cover;
+    background-position: 50% 50%;
 }
 
 .cover__link::before{

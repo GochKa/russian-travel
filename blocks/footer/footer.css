@@ -7,7 +7,6 @@
     padding-left: 48px;
     padding-right: 48px;
     padding-top: 92px;
-    max-height: 18px;
 }
 
 @media screen and (max-width: 800px){
@@ -21,9 +20,8 @@
 @media screen and (max-width: 600px){
     .footer{
         flex-direction: column;
-        max-height: 310px;
         align-items: start;
         padding-top: 64px;
-        padding-right: 0;
+        padding-left: 16px;
     }
 }

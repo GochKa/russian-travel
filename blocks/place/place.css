@@ -30,4 +30,7 @@
         padding-bottom: 50px;
         margin-bottom: 0;
     }
+    .place:last-of-type{
+        padding-bottom: 66px;
+    }
 }

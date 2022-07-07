@@ -19,6 +19,6 @@
 
 ----------------------
 
-Ссылка для просмотра сайта через ghpages:
+Ссылка для просмотра сайта через github-pages:
 
 https://gochka.github.io/russian-travel/index.html
